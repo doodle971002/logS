@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T07:39:45.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" version="20.0.3" etag="Z9tIgci-XYqDXD1RWMqd" type="github"><diagram id="ZpMublN2YRU761TCFFtB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-24T08:05:51.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="BChUUO-04_7l4ogv4iE8" version="20.0.3" type="github">
+  <diagram id="ZpMublN2YRU761TCFFtB" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kYJwfCalQFdGCRfRStVY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-1" target="kYJwfCalQFdGCRfRStVY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-1" target="kYJwfCalQFdGCRfRStVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-1" value="defer backgroundFlush" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-5" target="kYJwfCalQFdGCRfRStVY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kYJwfCalQFdGCRfRStVY-8">
+          <mxGeometry x="-0.5238" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-5" value="管道内有数据吗" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="190" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-7" target="kYJwfCalQFdGCRfRStVY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-7" value="有无数据被处理标志置true" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-10" target="kYJwfCalQFdGCRfRStVY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-10" value="定时器到点了" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="232" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-12" target="kYJwfCalQFdGCRfRStVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kYJwfCalQFdGCRfRStVY-20">
+          <mxGeometry x="-0.3854" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-12" target="kYJwfCalQFdGCRfRStVY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-28" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kYJwfCalQFdGCRfRStVY-27">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-12" value="管道数据正被处理" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-13" target="kYJwfCalQFdGCRfRStVY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-13" value="启动定时器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-19" target="kYJwfCalQFdGCRfRStVY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-19" value="有无数据被处理标志置false" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-23" target="kYJwfCalQFdGCRfRStVY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-23" target="kYJwfCalQFdGCRfRStVY-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="50" />
+              <mxPoint x="-280" y="50" />
+              <mxPoint x="-280" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-23" value="告知线程数据正被处理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-26" value="处理未被写入管道的暂存数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-29" target="kYJwfCalQFdGCRfRStVY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-29" target="kYJwfCalQFdGCRfRStVY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-29" value="AddAndCheck" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-30" target="kYJwfCalQFdGCRfRStVY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-34" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kYJwfCalQFdGCRfRStVY-33">
+          <mxGeometry x="-0.0968" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-30" value="是否超出暂存容量" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-32" target="kYJwfCalQFdGCRfRStVY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-32" value="清除暂存，返回暂存数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-37" target="kYJwfCalQFdGCRfRStVY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-37" value="向管道发送数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-39" value="等待在处理标志位" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-41" value="处理管道里的批量数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
