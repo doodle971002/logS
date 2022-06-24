@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T08:05:51.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="BChUUO-04_7l4ogv4iE8" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T08:07:56.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="TYRYLn8deGlFHqmufS33" version="20.0.3" type="github">
   <diagram id="ZpMublN2YRU761TCFFtB" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,11 +117,20 @@
         <mxCell id="kYJwfCalQFdGCRfRStVY-37" value="向管道发送数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kYJwfCalQFdGCRfRStVY-39" target="kYJwfCalQFdGCRfRStVY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kYJwfCalQFdGCRfRStVY-39" value="等待在处理标志位" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kYJwfCalQFdGCRfRStVY-41" value="处理管道里的批量数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-44" value="添加完成" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYJwfCalQFdGCRfRStVY-46" value="&lt;p style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;PeriodicalExecutor&lt;/p&gt;&lt;p style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;的添加逻辑&lt;/p&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="310" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
